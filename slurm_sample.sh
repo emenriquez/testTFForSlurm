@@ -27,7 +27,7 @@ echo "Activating TensorFlow-2.6.2 environment"
 source /shared/tensorflow-2.6.2/tf_env/bin/activate
 
 echo "Running testTF.py"
-python3 ~/TestTFForSlurm/testTF.py
+python3 ~/testTFForSlurm/testTF.py
 
 echo "Deactivating TensorFlow-2.6.2 environment"
 deactivate
