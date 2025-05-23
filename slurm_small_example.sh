@@ -33,7 +33,6 @@ echo "CUDA_VISIBLE_DEVICES: $CUDA_VISIBLE_DEVICES"
 
 # Define environment and script paths for clarity
 TF_ENV_PATH="/shared/tensorflow-2.6.2/tf_env/bin/activate"
-PYTHON_SCRIPT="~/testTFForSlurm/testTF.py"
 
 # Activate the TensorFlow environment
 echo "Activating TensorFlow-2.6.2 environment"
@@ -41,7 +40,7 @@ source $TF_ENV_PATH
 
 # Run the Python script
 echo "Running testTF.py"
-python3 $PYTHON_SCRIPT
+python3 ~/testTFForSlurm/testTF.py
 
 # Deactivate the environment
 echo "Deactivating TensorFlow-2.6.2 environment"
