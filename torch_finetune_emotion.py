@@ -46,7 +46,7 @@ def main():
     # 4. Fine-Tune the Model
     args = TrainingArguments(
         output_dir='./results',
-        evaluation_strategy='steps',
+        eval_strategy='steps',
         eval_steps=100,
         logging_steps=100,
         learning_rate=2e-5,
