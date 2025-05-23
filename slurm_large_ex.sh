@@ -25,6 +25,9 @@
 # Request number and type of GPUs (1 GPU)
 #SBATCH --gres=gpu:1
 
+# Request 2 CPU cores per task
+#SBATCH --cpus-per-task=2
+
 # Set a time limit for the job (hh:mm:ss)
 #SBATCH --time=2:00:00
 
