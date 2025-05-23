@@ -1,11 +1,11 @@
+#!/bin/bash
+
 # SLURM Sample Job Script
 # This script demonstrates how to submit a simple job to a SLURM-managed HPC cluster.
 # It requests 1 GPU node, activates a TensorFlow environment, and runs a Python script.
 #
 # Usage:
 #   sbatch slurm_sample.sh
-
-#!/bin/bash
 
 ### Set the job's name (appears in queue and output files)
 #SBATCH --job-name=myFirstJob

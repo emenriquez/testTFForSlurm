@@ -1,11 +1,11 @@
+#!/bin/bash
+
 # SLURM Batch Script for Fine-Tuning DistilBERT on Emotion Dataset (PyTorch)
 # This script submits a job to SLURM to run torch_finetune_emotion.py on a GPU node.
 # It also measures and prints the total training time.
 #
 # Usage:
-#   sbatch slurm_torch_finetune_emotion.sh
-
-#!/bin/bash
+#   sbatch slurm_large_ex.sh
 
 # Set the job's name
 #SBATCH --job-name=finetune-emotion
