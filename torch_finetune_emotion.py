@@ -4,6 +4,8 @@ This script is designed to be run as a SLURM batch job for HPC environments.
 """
 
 import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 from datasets import load_dataset
 from transformers import (
     DistilBertTokenizerFast,
