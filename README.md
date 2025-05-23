@@ -1,4 +1,4 @@
-# SLURM HPC Tutorial: TensorFlow & PyTorch Examples
+# Intro to HPC Tutorial: TensorFlow & PyTorch Examples
 
 This project provides simple examples for running machine learning jobs on a SLURM-managed high-performance computing (HPC) cluster. It includes both a small TensorFlow test and a larger PyTorch fine-tuning job, along with ready-to-use SLURM batch scripts.
 
